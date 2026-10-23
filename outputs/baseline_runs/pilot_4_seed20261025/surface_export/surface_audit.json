@@ -1,0 +1,8 @@
+[
+  {
+    "question_id": "q1135",
+    "raw_answer": "No. The evidence does not support the claim that the 'Fortune' article makes such a statement, as the provided evidence consists solely of articles from The Verge, not 'Fortune'. Additionally, the evidence shows that both The Verge articles and the referenced content discuss Caroline Ellison's involvement in the fraud, including her creation of fake balance sheets and her testimony about Alameda taking customer funds, with Sam Bankman-Fried being aware. Therefore, the claim that 'Fortune' focuses on Caroline Ellison's involvement while 'TechCrunch' focuses on fraud without mentioning her is not supported by the evidence. Insufficient Information.",
+    "surface_answer": "No\nThe evidence does not support the claim that the 'Fortune' article makes such a statement, as the provided evidence consists solely of articles from The Verge, not 'Fortune'. Additionally, the evidence shows that both The Verge articles and the referenced content discuss Caroline Ellison's involvement in the fraud, including her creation of fake balance sheets and her testimony about Alameda taking customer funds, with Sam Bankman-Fried being aware. Therefore, the claim that 'Fortune' focuses on Caroline Ellison's involvement while 'TechCrunch' focuses on fraud without mentioning her is not supported by the evidence. Insufficient Information.",
+    "rule": "leading_boolean_punctuation"
+  }
+]

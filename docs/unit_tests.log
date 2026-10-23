@@ -1,0 +1,23 @@
+$ python -m unittest discover -s tests -p test_baseline_package.py -v
+A6 SURFACE EXPORT: PASS (no Ollama; no gold)
+Questions: 2556 | changed: 700 | reasons: {'unchanged': 1856, 'leading_boolean_punctuation': 700}
+Saved: /tmp/tmpdsa2mwj8/surface/predictions_raw.json
+Saved: /tmp/tmpdsa2mwj8/surface/predictions_surface.json
+Saved: /tmp/tmpdsa2mwj8/surface/surface_audit.json
+Saved: /tmp/tmpdsa2mwj8/surface/surface_report.json
+A6 SURFACE EXPORT: PASS (no Ollama; no gold)
+Questions: 2 | changed: 1 | reasons: {'leading_boolean_punctuation': 1, 'unchanged': 1}
+Saved: /tmp/tmpmplgst1y/surface/predictions_raw.json
+Saved: /tmp/tmpmplgst1y/surface/predictions_surface.json
+Saved: /tmp/tmpmplgst1y/surface/surface_audit.json
+Saved: /tmp/tmpmplgst1y/surface/surface_report.json
+test_frozen_config (test_baseline_package.BaselinePackageTests.test_frozen_config) ... ok
+test_full_surface_equivalence (test_baseline_package.BaselinePackageTests.test_full_surface_equivalence) ... ok
+test_gold_free_surface (test_baseline_package.BaselinePackageTests.test_gold_free_surface) ... ok
+test_original_prompt_unchanged (test_baseline_package.BaselinePackageTests.test_original_prompt_unchanged) ... ok
+test_pilot_uses_new_batch_path_and_frozen_args (test_baseline_package.BaselinePackageTests.test_pilot_uses_new_batch_path_and_frozen_args) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.037s
+
+OK

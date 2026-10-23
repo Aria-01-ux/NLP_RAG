@@ -1,0 +1,24 @@
+{
+  "purpose": "Formatting experiment only; NOT official evaluation",
+  "generated_at_utc": "2026-10-23T03:00:59+00:00",
+  "input_predictions_sha256": "7368ff5ff557b177b6d287d6da92ca497ecfb61e295d6b79fe930094341d51a6",
+  "official_question_sha256": "03cfb4926461f868684903aadc8024447bdda5bb3f6804741424cce338515bff",
+  "questions": 2556,
+  "surface_changed": 700,
+  "concise_changed": 543,
+  "one_letter_original": 20,
+  "rule_counts": {
+    "concise_canonical_abstention": 891,
+    "concise_canonical_boolean": 71,
+    "concise_explicit_final_abstention": 2,
+    "concise_explicit_final_boolean": 8,
+    "concise_explicit_short_final_answer": 1,
+    "concise_leading_boolean_for_yesno_question": 520,
+    "concise_short_terminal_punctuation": 12,
+    "concise_unchanged": 1051,
+    "surface_leading_boolean_punctuation": 700,
+    "surface_unchanged": 1856
+  },
+  "assurance": "No gold answer or evidence_list is used to select or modify any answer.",
+  "warning": "Surface/concise outputs are separate diagnostic candidates, not automatic submission replacements."
+}

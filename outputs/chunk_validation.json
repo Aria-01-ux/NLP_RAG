@@ -1,0 +1,39 @@
+{
+  "input": {
+    "documents": 609,
+    "body_words": 1102435,
+    "corpus_sha256": "20b61b5ab84de84a927420c5d265b7ec8d859ae49980699958a787ade9e4d28f"
+  },
+  "parameters": {
+    "chunk_size_words": 300,
+    "overlap_words": 50,
+    "step_words": 250,
+    "word_regex": "\\b\\w+\\b"
+  },
+  "output": {
+    "chunks": 4573,
+    "covered_documents": 609,
+    "chunks_sha256": "9bae18941fa82c4f87fe2b3c313e7e5458a9d8d6cc860e72bdbe3bc37068af70"
+  },
+  "length_statistics": {
+    "min": 51,
+    "max": 300,
+    "mean": 284.42,
+    "chunks_below_100_words": 99
+  },
+  "missing_chunk_metadata": {
+    "title": 0,
+    "url": 0,
+    "source": 0,
+    "published_at": 0,
+    "category": 0,
+    "author": 424
+  },
+  "checks": {
+    "unique_chunk_ids": true,
+    "complete_word_coverage": true,
+    "exact_source_substrings": true,
+    "correct_overlap": true,
+    "saved_jsonl_verified": true
+  }
+}

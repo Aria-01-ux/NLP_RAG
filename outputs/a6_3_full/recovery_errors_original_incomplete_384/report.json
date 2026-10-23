@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-10-23T01:23:29+00:00",
+  "question_count": 2556,
+  "original_status_counts": {
+    "success": 2445,
+    "error": 110,
+    "incomplete": 1
+  },
+  "recovery_candidates": 111,
+  "recovered_success": 111,
+  "remaining_unrecovered": 0,
+  "recovery_latest_status_counts": {
+    "success": 111
+  },
+  "empty_answer_ids": [],
+  "empty_answers": 0,
+  "ready_for_official_evaluation": true,
+  "original_files_untouched": true,
+  "note": "Preview only; inspect outputs and run official preparation/scorer after recovery."
+}

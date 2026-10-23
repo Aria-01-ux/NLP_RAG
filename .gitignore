@@ -1,0 +1,17 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Local environments and secrets
+.venv/
+.env
+.env.*
+.idea/
+.vscode/
+
+# Full historical trace is distributed through GitHub Releases
+/outputs/a6_3_full/traces.jsonl
+
+# Original checksum manifest applies to the complete Release ZIP
+/SHA256SUMS.txt

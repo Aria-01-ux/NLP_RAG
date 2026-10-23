@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-10-23T14:15:24+00:00",
+  "purpose": "A6.3 -> gold-free A6.4 Surface normalization (not semantic scoring)",
+  "question_count": 4,
+  "changed_count": 1,
+  "rule_counts": {
+    "leading_boolean_punctuation": 1,
+    "unchanged": 3
+  },
+  "input_predictions_sha256": "9c46c5837a3763867d8acc4f5bebb53257a38cb86cac4eaa0b03f8ed2792ef2e",
+  "raw_copy_sha256": "9c46c5837a3763867d8acc4f5bebb53257a38cb86cac4eaa0b03f8ed2792ef2e",
+  "surface_predictions_sha256": "09001665f0bc2f795b01a96ff498e0600a8c701088cadfaf220c2bdccb7dfa1c",
+  "a6_4_source_sha256": "685bff26f2937adc42b7445938672f4ce2e127cb266b0fcf4afc2aa7afcb3965",
+  "active_surface_source_sha256": "12d5d3616216513294a4ce3a7b5d6716ddc079d7890512dd6039dac55b07105f",
+  "entrypoint_source_sha256": "f65f7e98e7a652cef8eaaad8714702fd85c9709926e6e56469e00d32c00b81a7",
+  "no_gold_labels_or_evidence_list_used": true
+}

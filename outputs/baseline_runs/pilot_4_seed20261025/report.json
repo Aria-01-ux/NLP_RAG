@@ -1,0 +1,46 @@
+{
+  "generated_at_utc": "2026-10-23T14:14:18+00:00",
+  "mode": "pilot",
+  "question_count": 4,
+  "status_counts": {
+    "success": 4
+  },
+  "elapsed_generation_seconds_sum": 14.64,
+  "missing_or_failed_predictions": 0,
+  "data_and_parameters": {
+    "mode": "pilot",
+    "question_ids": [
+      "q0732",
+      "q1028",
+      "q1135",
+      "q1400"
+    ],
+    "seed": 20261025,
+    "chunks_sha256": "9bae18941fa82c4f87fe2b3c313e7e5458a9d8d6cc860e72bdbe3bc37068af70",
+    "questions_sha256": "03cfb4926461f868684903aadc8024447bdda5bb3f6804741424cce338515bff",
+    "pipeline_source_sha256": "36771a8fc6f43cdc0723f2fbf1d38fa80e1614d6ffc70bbb20fd613b68c1bd19",
+    "retriever_source_sha256": "44776bee55312d40ba724c2b0d1f194c7177f71bf458b1ab1bb386a9a3582c7e",
+    "runner_source_sha256": "413e91436bf8f0f4d174e0dc2ad52466c5281635b4879032705268fec655e4d9",
+    "system_prompt_sha256": "05b61fb2897778c68693a66a7137a4485689a1a89ecc963a0ac0489110a08637",
+    "retriever": {
+      "type": "BM25Okapi",
+      "k1": 1.5,
+      "b": 0.75,
+      "epsilon": 0.25,
+      "top_k": 10,
+      "unique_docs": true,
+      "index_field": "text"
+    },
+    "generator": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "base_url": "http://127.0.0.1:11434",
+      "num_ctx": 4096,
+      "num_predict": 256,
+      "temperature": 0.0,
+      "max_context_chars": 8500,
+      "timeout_seconds": 180,
+      "retries": 1
+    }
+  },
+  "warning": "No official qa_evaluate.py run. Error/incomplete answers become empty strings in exported predictions. Inspect traces."
+}

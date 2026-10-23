@@ -1,0 +1,18 @@
+[
+  {
+    "question_id": "q0732",
+    "model_answer": "Insufficient Information"
+  },
+  {
+    "question_id": "q1028",
+    "model_answer": "Consistent. The evidence shows that Sam Bankman-Fried directed the use of customer funds, knew about Alameda's misuse of funds, and authorized actions such as buying back FTX shares with customer money, all of which align with the portrayal of his involvement in the misuse of customer funds."
+  },
+  {
+    "question_id": "q1135",
+    "model_answer": "No. The evidence does not support the claim that the 'Fortune' article makes such a statement, as the provided evidence consists solely of articles from The Verge, not 'Fortune'. Additionally, the evidence shows that both The Verge articles and the referenced content discuss Caroline Ellison's involvement in the fraud, including her creation of fake balance sheets and her testimony about Alameda taking customer funds, with Sam Bankman-Fried being aware. Therefore, the claim that 'Fortune' focuses on Caroline Ellison's involvement while 'TechCrunch' focuses on fraud without mentioning her is not supported by the evidence. Insufficient Information."
+  },
+  {
+    "question_id": "q1400",
+    "model_answer": "Insufficient Information"
+  }
+]

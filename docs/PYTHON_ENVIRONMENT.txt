@@ -1,0 +1,5 @@
+Python: 3.11.17 (main, Oct 13 2026, 16:45:47) [GCC 15.3.0]
+OS: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+rank-bm25==0.2.2
+tqdm==4.67.1
+Ollama and the Qwen3 model must be installed separately.

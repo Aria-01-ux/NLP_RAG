@@ -1,0 +1,14 @@
+$ python src/baseline/baseline.py preflight
+Running: /home/hsq65/miniforge3/envs/nlp_rag/bin/python /tmp/nlp_rag_handoff_fix_7afabzsa/NLP_RAG/src/baseline/batch_runner.py --mode preflight
+==========================================================================
+A6.3 - PRE-FLIGHT (NO LLM CALLS, NO GOLD LABELS)
+==========================================================================
+Question records : 2556
+Official ID range: q0000 to q2555
+Question types   : {'inference_query': 816, 'comparison_query': 856, 'null_query': 301, 'temporal_query': 583}
+Chunks           : 4573 | Source docs: 609
+Chunk SHA256     : 9bae18941fa82c4f87fe2b3c313e7e5458a9d8d6cc860e72bdbe3bc37068af70
+
+No A5.3 generation timing records found. No runtime estimate available.
+
+Preflight passed. This command did not run inference or create predictions.

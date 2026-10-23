@@ -1,0 +1,7 @@
+$ python src/baseline/baseline.py audit-history
+Running: /home/hsq65/miniforge3/envs/nlp_rag/bin/python /tmp/nlp_rag_handoff_fix_7afabzsa/NLP_RAG/src/baseline/historical_audit.py --mode check
+A6 FROZEN BASELINE INTEGRITY: PASS
+Questions: 2556 | original statuses: {'success': 2445, 'error': 110, 'incomplete': 1}
+Recovery: 111 | surface repair: {'unchanged': 1856, 'leading_boolean_punctuation': 700}
+Gold-free construction; no Ollama calls; no BM25 change; no scoring performed.
+CHECK ONLY: no files written.

@@ -1,0 +1,36 @@
+$ python src/baseline/baseline.py evaluate --predictions outputs/a6_final_baseline/predictions_surface.json --output-dir outputs/_temporary_eval_check
+Running: /home/hsq65/miniforge3/envs/nlp_rag/bin/python /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/eval_tutorial/prepare_eval.py --predictions /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/outputs/a6_final_baseline/predictions_surface.json --queries /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/data/raw/MultiHopRAG.json --output /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/outputs/_temporary_eval_check/qa_submission.json
+Validated 2556 questions; empty answers: 0.
+Created /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/outputs/_temporary_eval_check/qa_submission.json. Empty answers remain in the denominator.
+Running: /home/hsq65/miniforge3/envs/nlp_rag/bin/python /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/eval_tutorial/qa_evaluate.py --file /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/outputs/_temporary_eval_check/qa_submission.json --queries /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/data/raw/MultiHopRAG.json
+
+Evaluating answers:   0%|          | 0/2556 [00:00<?, ?it/s]
+Evaluating answers: 100%|██████████| 2556/2556 [00:00<00:00, 621846.93it/s]
+Question Type: inference_query
+ Precision: 0.8775
+ Recall: 0.8775
+ F1 Score: 0.8775
+ Accuracy: 0.8775
+Question Type: comparison_query
+ Precision: 0.4229
+ Recall: 0.4229
+ F1 Score: 0.4229
+ Accuracy: 0.4229
+Question Type: null_query
+ Precision: 0.9136
+ Recall: 0.9136
+ F1 Score: 0.9136
+ Accuracy: 0.9136
+Question Type: temporal_query
+ Precision: 0.3688
+ Recall: 0.3688
+ F1 Score: 0.3688
+ Accuracy: 0.3688
+Overall Metrics:
+ Precision: 0.6135
+ Recall: 0.6135
+ F1 Score: 0.6135
+ Accuracy: 0.6135
+
+Official evaluation exported: /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/outputs/_temporary_eval_check/qa_submission.json /tmp/nlp_baseline_delivery_r6y2nse5/NLP_RAG/outputs/_temporary_eval_check/official_eval.txt
+

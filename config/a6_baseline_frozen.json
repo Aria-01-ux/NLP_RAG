@@ -1,0 +1,29 @@
+{
+  "profile": "A6.3 generation settings (historically frozen)",
+  "description": "A5 BM25 + original A6.3 generation/recovery + A6.4 surface. Historical source files MUST stay unmodified.",
+  "retrieval": {
+    "top_k": 10,
+    "unique_docs": true,
+    "k1": 1.5,
+    "b": 0.75,
+    "epsilon": 0.25,
+    "max_context_chars": 8500
+  },
+  "generation": {
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "base_url": "http://127.0.0.1:11434",
+    "num_ctx": 4096,
+    "num_predict": 256,
+    "temperature": 0.0,
+    "timeout_seconds": 180,
+    "retries": 1
+  },
+  "source_sha256": {
+    "bm25_retriever.py": "480ff9dc9b94c0450eb8faffa99200cea9e1ef73c59deca6496fea96624f1e6d",
+    "rag_pipeline.py": "fc6644852f687a9750c8beb28b00641f28851277410862e19b74420e094b46e1",
+    "a6_3_batch_runner.py": "f9db53c037c01ce5b60a4f3b82d75928466a5698d89b158dd58a1ad002edd1e8",
+    "a6_4_output_baseline.py": "685bff26f2937adc42b7445938672f4ce2e127cb266b0fcf4afc2aa7afcb3965",
+    "a6_3_recover_full.py": "ac97216b49d6e6fc69f19d00dbdb20ed4a3ac6656854396785abd41aa260e5f4",
+    "a6_finalize_baseline.py": "5d1a6bd389f0539ca85418337bf0bf24d24152f035af746f77d7d77e9903a477"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "baseline": "A6.3 BM25+Ollama -> A6.3 recovery -> A6.4 Surface",
+  "original_question_count": 2556,
+  "original_status_counts": {
+    "success": 2445,
+    "error": 110,
+    "incomplete": 1
+  },
+  "recovered_count": 111,
+  "final_nonempty_answers": 2556,
+  "surface_repair_counts": {
+    "unchanged": 1856,
+    "leading_boolean_punctuation": 700
+  },
+  "evidence_chunks_per_question": {
+    "1": 5,
+    "2": 43,
+    "3": 683,
+    "4": 1817,
+    "5": 8
+  },
+  "source_files_sha256": {
+    "chunks_sha256": "9bae18941fa82c4f87fe2b3c313e7e5458a9d8d6cc860e72bdbe3bc37068af70",
+    "questions_sha256": "03cfb4926461f868684903aadc8024447bdda5bb3f6804741424cce338515bff",
+    "pipeline_source_sha256": "fc6644852f687a9750c8beb28b00641f28851277410862e19b74420e094b46e1",
+    "retriever_source_sha256": "480ff9dc9b94c0450eb8faffa99200cea9e1ef73c59deca6496fea96624f1e6d",
+    "runner_source_sha256": "f9db53c037c01ce5b60a4f3b82d75928466a5698d89b158dd58a1ad002edd1e8",
+    "run_manifest": "7c94ce6e92b348202ae684e420a418a1be851572fe09dccb2fbfd0765d5a7eef",
+    "run_report": "6f79e312619b0cdbeb32ac5ba40b006cf72b5bfed7b5ffd7cc24e6469954a1b4",
+    "original_traces": "2708e79d0c358a5fe4a26753fce9bdf78b317ed31e673624566ef06c074c7c8d",
+    "original_predictions": "e9b781d485a224c2829fbefc2ca851c3aea8ba837469e85997a7e04297eb2049",
+    "recovery_manifest": "1ca761f386a6a14adbcc78b5bf415b5175f18788c9cacd291d400cc39b33e9d2",
+    "recovery_report": "79a0f9db5ac7268660cf5302afc7253d566da1790bb321e9cafef8f23e3b20bb",
+    "recovery_traces": "2e798330242d3a4a86b8104d7b00d608248cbaff7a24b5bec395aa0107a1b426",
+    "recovered_predictions": "7368ff5ff557b177b6d287d6da92ca497ecfb61e295d6b79fe930094341d51a6",
+    "a64_surface": "27f32caa5dde4724d3c6f63850d1d6ee75106a4663fb384a3746e62dae04e016",
+    "a64_report": "d56296934378b1877f7afda522cb33d674d7fb5a9bea13029e50ec8f237531dc"
+  },
+  "generation_settings_from_A6_3": {
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "base_url": "http://127.0.0.1:11434",
+    "num_ctx": 4096,
+    "num_predict": 256,
+    "temperature": 0.0,
+    "max_context_chars": 8500,
+    "timeout_seconds": 180,
+    "retries": 1
+  },
+  "retrieval_settings_from_A6_3": {
+    "type": "BM25Okapi",
+    "k1": 1.5,
+    "b": 0.75,
+    "epsilon": 0.25,
+    "top_k": 10,
+    "unique_docs": true,
+    "index_field": "text"
+  },
+  "verification": "All source hashes, evidence blocks, prompts, statuses, recovery joins, and A6.4 Surface outputs match.",
+  "limitations": [
+    "No semantic verification is implied by evidence integrity.",
+    "Surface normalization does not improve retrieval or model reasoning.",
+    "No answer labels or gold evidence used in answer construction.",
+    "Official metric must be computed separately with the pinned evaluator."
+  ],
+  "exported_at_utc": "2026-10-23T11:26:55+00:00",
+  "finalizer_source_sha256": "5d1a6bd389f0539ca85418337bf0bf24d24152f035af746f77d7d77e9903a477",
+  "exported_files_sha256": {
+    "predictions_raw.json": "7368ff5ff557b177b6d287d6da92ca497ecfb61e295d6b79fe930094341d51a6",
+    "predictions_surface.json": "27f32caa5dde4724d3c6f63850d1d6ee75106a4663fb384a3746e62dae04e016",
+    "final_status.jsonl": "a45287b3904430637d7eb607a53f83ae61fe034fd2ce64e2819694de5152b205"
+  }
+}
