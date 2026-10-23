@@ -12,7 +12,6 @@
 - 历史冻结预测（旧 A6.3 + Recovery + A6.4）的官方脚本指标：Raw **45.62%**（1166/2556），Surface **61.35%**（1568/2556）。
 - 402 条新增官方命中来自 *gold-free* 的 Yes/No 标点格式规范化；**不是** 检索或语义推理改善。该脚本按空白分词交集判分，不等同严格语义正确率。
 - 重构后新版 `src/baseline/` 的完整 2556 题重新生成**未执行**；已有证据为独立目录真实四题 Pilot 及离线完整性验证。
-- 官方 65% 为课程最终 Response Accuracy 单项 Pass 档，不是 A 成员独自必须达到的交接门槛，也不是整个小组的最终综合成绩。
 
 ## 2. 实际包含内容（以此 ZIP 为准）
 
@@ -112,8 +111,7 @@ python src/baseline/baseline.py recover --confirm-recovery
 
 ## 6. A→B 接手及团队提交
 
-详细接口和待办见 `docs/A7_B_HANDOFF.md`。B 的任务是多跳检索、检索增强、推理/证据整合及消融实验；A 的 Frozen Baseline 应保留不变作为对照。C 负责正式 Benchmark、错误分析和最终报告。
+详细接口和待办见 `docs/A7_B_HANDOFF.md`。B 的任务是多跳检索、检索增强、推理/证据整合及消融实验；A 的 Frozen Baseline 应保留不变作为对照。
 
-**GitHub 仓库 URL/权限不在 ZIP 中，必须由项目维护者单独提供给 B**。本包可离线传递源码，但单纯交一个 ZIP 不等于完成“源码放在 GitHub”的课程提交要求。完整 Trace `traces.jsonl` 可能超过 GitHub 单文件上传限制；不应强行直接用普通 Git 推送超大文件，可通过项目允许的 Git LFS / Release / 外部文件链接交付，并同时保存 SHA256 校验。
 
 首次接手应执行 `preflight → unit tests → audit-history → evaluate`，之后再配置 Ollama 做小样本 Pilot。历史全量分数属原 A6.3 冻结记录，不能包装为新版 Full 得分。
